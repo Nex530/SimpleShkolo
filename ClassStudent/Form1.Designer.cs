@@ -133,6 +133,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1272, 546);
+            Controls.Add(listBox1);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -140,7 +141,6 @@
             Controls.Add(listBox2);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(listBox1);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";

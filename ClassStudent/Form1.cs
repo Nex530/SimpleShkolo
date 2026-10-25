@@ -46,7 +46,7 @@ namespace ClassStudent
             }
             public string ShowInfo()
             {
-                return ("Име: " + name + "Клас: " + Class + "Среден успех: " + AverageGrade());
+                return ("Име: " + name + "\r\nКлас: " + Class + "\r\nСреден успех: " + AverageGrade());
             }
         }
 
@@ -54,9 +54,10 @@ namespace ClassStudent
             {
 
             string ocenka = textBox3.Text.ToString();
-                student1.addGrade(ocenka);
+            student1.addGrade(ocenka);
                 textBox1.Text = student1.ShowInfo();
 
-            }
+
+        }
     }
 }
